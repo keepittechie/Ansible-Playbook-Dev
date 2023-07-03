@@ -1,0 +1,24 @@
+# This is an inventory file for Ansible, which defines the hosts and groups for managing infrastructure.
+# It provides a structured representation of the target systems, allowing Ansible to execute tasks on specific hosts or groups of hosts.
+
+# Example Inventory:
+---
+webservers:
+  hosts:
+    webserver1:
+      ansible_host: 192.168.1.10
+    webserver2:
+      ansible_host: 192.168.1.11
+
+databases:
+  hosts:
+    dbserver1:
+      ansible_host: 192.168.1.20
+    dbserver2:
+      ansible_host: 192.168.1.21
+
+loadbalancer:
+  hosts:
+    lbserver:
+      ansible_host: 192.168.1.30
+
