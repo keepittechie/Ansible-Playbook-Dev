@@ -25,9 +25,9 @@ To use the Ansible playbooks in this repository, follow the steps below:
    git clone https://github.com/keepittechie/Ansible-Playbook-Dev.git
    ```
    
-   It is assumed you have these two tasks completed:
-      - Creating Key Pair on the Ansible controller
-      - Copy the Public Key to your Ubuntu Server nodes
+It is assumed you have these two tasks completed:
+   - Creating Key Pair on the Ansible controller
+   - Copy the Public Key to your Ubuntu Server nodes
 
 ## Usage
 
