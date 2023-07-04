@@ -5,7 +5,7 @@
 # Please ensure SSH access and appropriate permissions are set up for executing the tasks.
 
 ---
-- hosts: ubuntu_servers
+- hosts: all
   gather_facts: yes
   become: yes
   become_method: sudo
