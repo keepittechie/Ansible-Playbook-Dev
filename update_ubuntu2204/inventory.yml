@@ -6,9 +6,7 @@
 ---
 all:
   hosts:
-    ubuntu_servers:
-      hosts:
-        server1:
-          ansible_host: <IP_ADDRESS_SERVER1>
-        server2:
-          ansible_host: <IP_ADDRESS_SERVER2>
+    server1:
+      ansible_host: <IP_ADDRESS_SERVER1>
+    server2:
+      ansible_host: <IP_ADDRESS_SERVER2>
