@@ -13,12 +13,10 @@ Open the inventory.yml file and define your inventory. For example, if you have 
 ```yaml
 all:
   hosts:
-    ubuntu_servers:
-      hosts:
-        server1:
-          ansible_host: <IP_ADDRESS_SERVER1>
-        server2:
-          ansible_host: <IP_ADDRESS_SERVER2>
+    server1:
+      ansible_host: <IP_ADDRESS_SERVER1>
+    server2:
+      ansible_host: <IP_ADDRESS_SERVER2>
   ```
 
 Replace <IP_ADDRESS_SERVER1> and <IP_ADDRESS_SERVER2> with the actual IP addresses of your Ubuntu servers.
